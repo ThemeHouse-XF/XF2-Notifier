@@ -1,0 +1,67 @@
+<xf:if is="$action.isInsert()">
+    <xf:title>{{ phrase('th_notifier_add_action') }}</xf:title>
+<xf:else />
+    <xf:title>{{ phrase('th_notifier_edit_action:') }} {$action.title}</xf:title>
+</xf:if>
+
+<xf:form action="{{ link('th-notifier/actions/save', $action) }}" ajax="true" class="block">
+    <div class="block-container">
+        <h2 class="block-tabHeader tabs hScroller" data-xf-init="tabs h-scroller" role="tablist">
+            <span class="hScroller-scroll">
+                <a class="tabs-tab is-active" role="tab" aria-controls="action-options">{{ phrase('th_notifier_action_options') }}</a>
+                {$action.contentHandler.renderActionTabs()|raw}
+                <xf:if is="$action.contentHandler.canUseUserCriteria()">
+                    <xf:macro template="helper_criteria" name="user_tabs" />
+                </xf:if>
+
+                <xf:foreach loop="$providers" value="$provider">
+                    <a class="tabs-tab" role="tab" aria-controls="provider-options--{$provider.provider_id}">{$provider.title}</a>
+                </xf:foreach>
+            </span>
+        </h2>
+        <ul class="tabPanes block-body">
+            <li class="is-active" role="tabpanel" id="action-options">
+                <xf:textboxrow label="{{ phrase('title') }}" name="title" value="{$action.title}" />
+
+                <xf:formrow label="{{ phrase('content_type') }}">
+                    {$action.getContentTypePhrase()}
+                </xf:formrow>
+
+                <xf:selectrow label="{{ phrase('th_notifier_notification_providers') }}" name="provider_ids" value="{$action.provider_ids}" multiple="true">
+                    <xf:foreach loop="$providers" value="$provider">
+                        <xf:option value="{$provider.provider_id}">{$provider.title}</xf:option>
+                    </xf:foreach>
+                </xf:selectrow>
+
+                <xf:selectrow label="{{ phrase('actions') }}" name="actions" value="{$action.actions}" multiple="true">
+                    <xf:options source="{$action.contentHandler.getActions()}" />
+                </xf:selectrow>
+
+                {$action.contentHandler.renderActionOptions()|raw}
+            </li>
+
+            {$action.contentHandler.renderActionTabPanes()|raw}
+
+            <xf:if is="$action.contentHandler.canUseUserCriteria()">
+                <xf:macro template="helper_criteria" name="user_panes"
+                          arg-criteria="{{ $userCriteria.getCriteriaForTemplate() }}"
+                          arg-data="{{ $userCriteria.getExtraTemplateData() }}" />
+            </xf:if>
+
+            <xf:foreach loop="$providers" value="$provider">
+                <li role="tabpanel" id="provider-options--{$provider.provider_id}">
+                    <xf:if contentcheck="true">
+                        <xf:contentcheck>
+                            {$provider.handler.renderActionOptions($action)|raw}
+                        </xf:contentcheck>
+                        <xf:else />
+                        {{ phrase('th_notifier_no_options_for_provider') }}
+                    </xf:if>
+                </li>
+            </xf:foreach>
+        </ul>
+
+        <xf:submitrow icon="save" sticky="true" />
+        <xf:hiddenval name="content_type" value="{$action.content_type}" />
+    </div>
+</xf:form>

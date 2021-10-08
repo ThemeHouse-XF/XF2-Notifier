@@ -1,0 +1,36 @@
+<xf:title>{{ phrase('th_notifier_actions') }}</xf:title>
+
+<xf:pageaction>
+    <xf:button href="{{ link('th-notifier/actions/add') }}" icon="add">{{ phrase('th_notifier_add_action') }}</xf:button>
+</xf:pageaction>
+
+<xf:if is="$groupedActions is not empty">
+    <xf:form action="{{ link('th-notifier/actions/toggle') }}" ajax="true">
+        <xf:foreach loop="$groupedActions" key="$contentType" value="$actions">
+            <div class="block">
+                <div class="block-container">
+                    <h2 class="block-header">{$contentTypes.{$contentType}}</h2>
+                    <div class="block-body">
+                        <xf:datalist>
+                            <xf:foreach loop="$actions" value="$action">
+                                <xf:datarow>
+                                    <xf:main href="{{ link('th-notifier/actions/edit', $action) }}"
+                                             label="{$action.title}"
+                                             hash="{$action.action_id}" />
+                                    <xf:toggle name="active[{$action.action_id}]"
+                                               selected="{$action.active}"
+                                               submit="true"
+                                               tooltip="{{ phrase('enable_disable_x', {'title': $action.title}) }}" />
+
+                                    <xf:delete href="{{ link('th-notifier/actions/delete', $action) }}" />
+                                </xf:datarow>
+                            </xf:foreach>
+                        </xf:datalist>
+                    </div>
+                </div>
+            </div>
+        </xf:foreach>
+    </xf:form>
+    <xf:else />
+    <div class="blockMessage">{{ phrase('th_notifier_no_actions_currently_exist') }}</div>
+</xf:if>

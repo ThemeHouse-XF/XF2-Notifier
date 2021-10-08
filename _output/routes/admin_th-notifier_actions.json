@@ -1,0 +1,11 @@
+{
+    "route_type": "admin",
+    "route_prefix": "th-notifier",
+    "sub_name": "actions",
+    "format": "actions/:str<action_id>/",
+    "build_class": "",
+    "build_method": "",
+    "controller": "ThemeHouse\\Notifier:Action",
+    "context": "th_notifier_action",
+    "action_prefix": ""
+}

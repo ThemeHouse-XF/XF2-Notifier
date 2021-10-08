@@ -1,0 +1,1 @@
+Enter your Mattermost personal access token. For more details you can view their documentation <a href="https://docs.mattermost.com/developer/personal-access-tokens.html">here</a>.

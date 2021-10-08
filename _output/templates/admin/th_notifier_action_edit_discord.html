@@ -1,0 +1,13 @@
+<xf:selectrow label="{{ phrase('th_notifier_channel') }}"
+			  name="options[discord][channel]"
+			  value="{$action.options.discord.channel}">
+    <xf:option />
+	<xf:foreach loop="$channelOptions" value="$guild">
+		<xf:option disabled="{{ true }}">{$guild.name}</xf:option>
+		<xf:foreach loop="$guild.channels" value="$channel">
+			<xf:if is="$channel.type === 0">
+				<xf:option value="{$channel.id}">&nbsp;&nbsp;&nbsp;{$channel.name}</xf:option>
+			</xf:if>
+		</xf:foreach>
+	</xf:foreach>
+</xf:selectrow>

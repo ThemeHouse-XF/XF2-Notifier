@@ -1,0 +1,1 @@
+{userNameLink} has {deleteType} the update {resourceUpdateNameLink} for the resource {resourceNameLink}

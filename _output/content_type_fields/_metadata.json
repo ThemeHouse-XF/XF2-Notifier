@@ -1,0 +1,29 @@
+{
+    "post-th_notifier_handler_class.json": {
+        "hash": "6b59b4bed86a020d9bea1da3916c8d8a"
+    },
+    "report-th_notifier_handler_class.json": {
+        "hash": "06e13ec35db097481c89ae5170894bad"
+    },
+    "resource-th_notifier_handler_class.json": {
+        "hash": "9253f176963c7109fe4b9d74b5f632d6"
+    },
+    "resource_rating-th_notifier_handler_class.json": {
+        "hash": "e142a567925cf978a6ee4a13d1e7f1a7"
+    },
+    "resource_update-th_notifier_handler_class.json": {
+        "hash": "86a3d3fcd23187f1f660c2ce9c4bcc21"
+    },
+    "thread-th_notifier_handler_class.json": {
+        "hash": "6d7e28d0f47ab6670230d863012e834f"
+    },
+    "xfmg_album-th_notifier_handler_class.json": {
+        "hash": "944d89aa1bbbe4871e14848c0450359f"
+    },
+    "xfmg_media-th_notifier_handler_class.json": {
+        "hash": "9b12d011854668de1a3bbb5cf92cedfc"
+    },
+    "xfmg_rating-th_notifier_handler_class.json": {
+        "hash": "075f04d920e28dd85b4a1995374ac8ee"
+    }
+}

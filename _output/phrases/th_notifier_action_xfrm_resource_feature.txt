@@ -1,0 +1,1 @@
+{userNameLink} has featured the resource {resourceNameLink}

@@ -1,0 +1,1 @@
+{userNameLink} has undeleted the album {albumNameLink}

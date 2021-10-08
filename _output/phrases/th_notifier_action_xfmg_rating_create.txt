@@ -1,0 +1,1 @@
+{ratingUsernameLink} has left a {ratingNameLink} rating on {mediaNameLink}

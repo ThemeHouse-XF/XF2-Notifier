@@ -1,0 +1,13 @@
+<xf:title>{{ phrase('th_notifier_choose_content_type') }}</xf:title>
+
+<xf:form action="{{ link('th-notifier/actions/add') }}" class="block" ajax="true">
+    <div class="block-container">
+        <div class="block-body">
+            <xf:selectrow name="content_type" label="{{ phrase('content_type') }}">
+                <xf:option />
+                <xf:options source="{$contentTypeOptions}" />
+            </xf:selectrow>
+        </div>
+        <xf:submitrow submit="{{ phrase('th_notifier_add_action') }}" icon="add" />
+    </div>
+</xf:form>

@@ -1,0 +1,38 @@
+<xf:title>{{ phrase('th_notifier_notifier_providers') }}</xf:title>
+
+<xf:form action="{{ link('th-notifier/providers/toggle') }}" class="block ajax=true">
+    <div class="block-outer">
+        <xf:macro template="filter_macros" name="quick_filter" arg-key="th_notifier_providers" arg-class="block-outer-opposite" />
+    </div>
+
+    <div class="block-container">
+        <xf:if is="$activeProviders is not empty">
+            <div class="block-body">
+                <xf:datalist>
+                    <xf:datarow rowtype="subsection" rowclass="dataList-row--noHover">
+                        <xf:cell>{{ phrase('active_providers') }}</xf:cell>
+                    </xf:datarow>
+                    <xf:foreach loop="$activeProviders" value="$provider">
+                        <xf:datarow label="{$provider.title}" href="{{ link('th-notifier/providers/edit', $provider) }}" />
+                    </xf:foreach>
+                </xf:datalist>
+            </div>
+        </xf:if>
+
+        <xf:if is="$inactiveProviders is not empty">
+            <div class="block-body">
+                <xf:datalist>
+                    <xf:datarow rowtype="subsection" rowclass="dataList-row--noHover">
+                        <xf:cell>{{ phrase('inactive_providers') }}</xf:cell>
+                    </xf:datarow>
+                    <xf:foreach loop="$inactiveProviders" value="$provider">
+                        <xf:datarow label="{$provider.title}" href="{{ link('th-notifier/providers/edit', $provider) }}" />
+                    </xf:foreach>
+                </xf:datalist>
+            </div>
+        </xf:if>
+        <div class="block-footer">
+            <span class="block-footer-counter">{{ display_totals(count($activeProviders) + count($inactiveProviders)) }}</span>
+        </div>
+    </div>
+</xf:form>

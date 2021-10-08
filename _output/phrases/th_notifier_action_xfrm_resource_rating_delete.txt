@@ -1,0 +1,1 @@
+{userNameLink} has {deleteType} {resourceRatingUsernameLink}'s rating for the resource {resourceNameLink}

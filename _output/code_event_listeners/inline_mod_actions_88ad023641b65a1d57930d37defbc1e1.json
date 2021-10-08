@@ -1,0 +1,9 @@
+{
+    "event_id": "inline_mod_actions",
+    "execute_order": 10,
+    "callback_class": "ThemeHouse\\Notifier\\Listener\\InlineModActions",
+    "callback_method": "inlineModActions",
+    "active": true,
+    "hint": "",
+    "description": "Send bulk notifications for inline moderation actions"
+}

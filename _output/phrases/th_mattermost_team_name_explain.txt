@@ -1,0 +1,1 @@
+Your Mattermost team name. This should be the value taken from the URL. For example, if your team URL is `https://chat.mydomain.com/staff` you would input `staff` here

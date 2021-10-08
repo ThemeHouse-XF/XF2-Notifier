@@ -1,0 +1,20 @@
+{
+    "legacy_addon_id": "",
+    "title": "[TH] Notifier",
+    "description": "Keeping you informed.",
+    "version_id": 1000370,
+    "version_string": "1.0.3",
+    "dev": "ThemeHouse",
+    "dev_url": "https://www.themehouse.com",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": {
+        "XF": [
+            2010031,
+            "XenForo 2.1.0+"
+        ]
+    },
+    "icon": "icon.png",
+    "composer_autoload": "vendor/composer"
+}

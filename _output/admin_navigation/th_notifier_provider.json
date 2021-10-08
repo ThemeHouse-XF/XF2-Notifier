@@ -1,0 +1,10 @@
+{
+    "parent_navigation_id": "th_notifier",
+    "display_order": 5,
+    "link": "th-notifier/providers",
+    "icon": "",
+    "admin_permission_id": "th_notifier_manageProv",
+    "debug_only": false,
+    "development_only": false,
+    "hide_no_children": false
+}

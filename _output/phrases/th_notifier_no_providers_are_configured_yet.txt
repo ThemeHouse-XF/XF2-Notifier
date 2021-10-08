@@ -1,0 +1,1 @@
+No providers have been configured yet, please <a href="admin.php?th-notifier/providers/">configure one</a> before setting up the actions.

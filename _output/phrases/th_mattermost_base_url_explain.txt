@@ -1,0 +1,1 @@
+Your Mattermost base URL. Do <b>not</b> include the team name.

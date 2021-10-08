@@ -1,0 +1,10 @@
+<xf:macro name="tabs">
+    <a class="tabs-tab" role="tab" aria-controls="action-report-criteria">{{ phrase('th_notifier_report_criteria') }}</a>
+</xf:macro>
+
+<li role="tabpanel" id="action-report-criteria">
+    <xf:selectrow label="{{ phrase('content_types') }}" name="options[content][content_types]" multiple="true" value="{$action.options.content.content_types}">
+        <xf:option value="0">{{ phrase('all_content_types') }}</xf:option>
+        <xf:options source="{{ $xf.app.getContentTypePhrases(true, 'report_handler_class') }}" />
+    </xf:selectrow>
+</li>

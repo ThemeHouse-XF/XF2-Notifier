@@ -1,0 +1,1 @@
+{userNameLink} has opened {count} thread(s) the the forum {forumNameLink}

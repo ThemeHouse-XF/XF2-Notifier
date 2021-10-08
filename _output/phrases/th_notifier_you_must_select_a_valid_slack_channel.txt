@@ -1,0 +1,1 @@
+You must select a valid Slack channel which your bot user has access to.

@@ -1,0 +1,32 @@
+<xf:title>{{ phrase('edit_provider:') }} {$provider.title}</xf:title>
+
+<xf:form action="{{ link('th-notifier/providers/save', $provider) }}" class="block" ajax="true">
+    <div class="block-container">
+        <div class="block-body">
+            <xf:formrow label="{{ phrase('provider_id') }}">
+                {$provider.provider_id}
+            </xf:formrow>
+
+            <xf:formrow label="{{ phrase('provider_class') }}">
+                {$provider.provider_class}
+            </xf:formrow>
+
+            <xf:formrow label="{{ phrase('title') }}">
+                {$provider.title}
+            </xf:formrow>
+
+            <xf:checkboxrow>
+                <xf:option name="active" selected="{$provider.active}" label="{{ phrase('th_notifier_provider_is_active') }}" />
+            </xf:checkboxrow>
+
+            <xf:if contentcheck="true">
+                <hr class="formRowSep" />
+                <xf:contentcheck>
+                    {$provider.renderOptions()|raw}
+                </xf:contentcheck>
+            </xf:if>
+        </div>
+
+        <xf:submitrow sticky="true" icon="save" />
+    </div>
+</xf:form>

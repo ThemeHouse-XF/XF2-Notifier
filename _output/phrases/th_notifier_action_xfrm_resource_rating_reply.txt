@@ -1,0 +1,1 @@
+{userNameLink} has replied to {resourceRatingUsernameLink}'s rating for the resource {resourceNameLink}

@@ -1,0 +1,7 @@
+<xf:textboxrow label="{{ phrase('th_notifier_discord_bot_token') }}"
+			   name="options[bot_token]"
+			   class="js-BotToken"
+			   data-xf-init="discord-init"
+			   value="{$provider.options.bot_token}" />
+
+<xf:js src="themehouse/notifier/discord-init.js" addon="ThemeHouse/Notifier" />

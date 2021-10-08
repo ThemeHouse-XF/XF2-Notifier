@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Entity\\Report",
+    "to_class": "ThemeHouse\\Notifier\\XF\\Entity\\Report",
+    "execute_order": 2147483646,
+    "active": true
+}

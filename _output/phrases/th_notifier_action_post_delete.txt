@@ -1,0 +1,1 @@
+{userNameLink} has {deleteType} {postUserNameLink}'s post in the thread {threadNameLink}

@@ -1,0 +1,10 @@
+{
+    "parent_navigation_id": "th_notifier",
+    "display_order": 5000,
+    "link": "th-notifier/send",
+    "icon": "",
+    "admin_permission_id": "th_notifier_sendNotif",
+    "debug_only": false,
+    "development_only": false,
+    "hide_no_children": false
+}

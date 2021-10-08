@@ -1,0 +1,11 @@
+{
+    "route_type": "admin",
+    "route_prefix": "th-notifier",
+    "sub_name": "providers",
+    "format": "providers/:str<provider_id>/",
+    "build_class": "",
+    "build_method": "",
+    "controller": "ThemeHouse\\Notifier:Provider",
+    "context": "th_notifier_provider",
+    "action_prefix": ""
+}

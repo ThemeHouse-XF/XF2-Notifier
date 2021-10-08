@@ -1,0 +1,6 @@
+{
+    "additional_files": [
+        "js/themehouse/notifier/discord-init.js"
+    ],
+    "minify": "*"
+}

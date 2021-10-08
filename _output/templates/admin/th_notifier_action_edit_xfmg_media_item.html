@@ -1,0 +1,14 @@
+<xf:macro name="tabs">
+    <a class="tabs-tab" role="tab" aria-controls="action-media-criteria">{{ phrase('th_notifier_media_criteria') }}</a>
+</xf:macro>
+
+<li role="tabpanel" id="action-media-criteria">
+    <xf:selectrow label="{{ phrase('categories') }}" name="options[content][category_ids]" multiple="true" value="{$action.options.content.category_ids}">
+        <xf:option value="0">{{ phrase('all_categories') }}</xf:option>
+        <xf:foreach loop="$categoryTree.getFlattened(0)" value="$treeEntry">
+            <xf:option value="{$treeEntry.record.category_id}">
+                {{ repeat('&nbsp;&nbsp;', $treeEntry.depth)|raw }} {$treeEntry.record.title}
+            </xf:option>
+        </xf:foreach>
+    </xf:selectrow>
+</li>

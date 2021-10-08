@@ -1,0 +1,1 @@
+{userNameLink} has replied to {ratingUsernameLink}'s rating on {mediaNameLink}

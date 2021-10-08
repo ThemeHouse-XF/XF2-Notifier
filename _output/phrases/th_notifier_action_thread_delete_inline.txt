@@ -1,0 +1,1 @@
+{userNameLink} has {deleteType} {count} thread(s) in the forum {forumNameLink}

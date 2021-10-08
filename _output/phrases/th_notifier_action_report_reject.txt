@@ -1,0 +1,1 @@
+{userNameLink} has rejected the report for {reportNameLink}.

@@ -1,0 +1,1 @@
+{userNameLink} has released the update {resourceUpdateNameLink} for the resource {resourceNameLink}

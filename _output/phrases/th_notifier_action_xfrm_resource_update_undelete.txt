@@ -1,0 +1,1 @@
+{userNameLink} has undeleted the update {resourceUpdateNameLink} for the resource {resourceNameLink}

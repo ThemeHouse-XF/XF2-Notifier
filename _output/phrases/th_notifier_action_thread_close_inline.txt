@@ -1,0 +1,1 @@
+{userNameLink} has closed {count} thread(s) the the forum {forumNameLink}

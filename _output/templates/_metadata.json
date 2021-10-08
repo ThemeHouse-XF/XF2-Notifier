@@ -1,0 +1,97 @@
+{
+    "admin/th_notifier_action_add.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "2bf36114bde8ab8338e7faedd1367ed7"
+    },
+    "admin/th_notifier_action_edit.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "4515cc7abf7eced51046719e0da476c3"
+    },
+    "admin/th_notifier_action_edit_discord.html": {
+        "version_id": 1000132,
+        "version_string": "1.0.1 Beta 2",
+        "hash": "377860a729044665e97db69c2b73594d"
+    },
+    "admin/th_notifier_action_edit_mattermost.html": {
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "0b45dec0a919a4359aef2ca31baa69ad"
+    },
+    "admin/th_notifier_action_edit_post.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "9b8fafd8685aeca5872c3d6658a31d9a"
+    },
+    "admin/th_notifier_action_edit_report.html": {
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "3d5dfcd1360038049e91c1e50537b853"
+    },
+    "admin/th_notifier_action_edit_slack.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "9c7aeea69632124d32a1968a2f01a174"
+    },
+    "admin/th_notifier_action_edit_thread.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "9b8fafd8685aeca5872c3d6658a31d9a"
+    },
+    "admin/th_notifier_action_edit_xfmg_media_item.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "392776ee73546dbb53ef1c4158cd64ee"
+    },
+    "admin/th_notifier_action_edit_xfrm_resource.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "bd6ad32648409357a9a0ac5bc406dda0"
+    },
+    "admin/th_notifier_action_list.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "2d7390e62fc9788cb351c74497104c03"
+    },
+    "admin/th_notifier_edit_action_slack.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "9c7aeea69632124d32a1968a2f01a174"
+    },
+    "admin/th_notifier_index.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f4899738aaddc6af3c72ed591f4c08b2"
+    },
+    "admin/th_notifier_provider_edit.html": {
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "2450da75fd0dad74044ac038b38fc4f9"
+    },
+    "admin/th_notifier_provider_edit_discord.html": {
+        "version_id": 1000132,
+        "version_string": "1.0.1 Beta 2",
+        "hash": "ac4b082de91def6a6be51e2fe1411c85"
+    },
+    "admin/th_notifier_provider_edit_mattermost.html": {
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "aa6c914fd9989dbd22bc1f8058618655"
+    },
+    "admin/th_notifier_provider_edit_slack.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "468a937a78f687828838c9a6aa297116"
+    },
+    "admin/th_notifier_provider_list.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "370f3bee6e4d0b1035c3fbcef49807db"
+    },
+    "admin/th_notifier_send.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8063a0c585fe206f6ec76cf7046b598d"
+    }
+}

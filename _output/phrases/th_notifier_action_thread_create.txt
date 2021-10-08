@@ -1,0 +1,1 @@
+{userNameLink} has created the thread {threadNameLink}

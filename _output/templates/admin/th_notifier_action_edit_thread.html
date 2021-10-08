@@ -1,0 +1,26 @@
+<xf:macro name="tabs">
+    <a class="tabs-tab" role="tab" aria-controls="action-thread-criteria">{{ phrase('th_notifier_thread_criteria') }}</a>
+</xf:macro>
+
+<li role="tabpanel" id="action-thread-criteria">
+    <xf:selectrow label="{{ phrase('nodes') }}" name="options[content][node_ids]" multiple="true" value="{$action.options.content.node_ids}">
+        <xf:option value="0">{{ phrase('all_forums') }}</xf:option>
+        <xf:foreach loop="$nodeTree.getFlattened(0)" value="$treeEntry">
+            <xf:option value="{$treeEntry.record.node_id}" disabled="{{ $treeEntry.record.node_type_id != 'Forum' }}">
+                {{ repeat('&nbsp;&nbsp;', $treeEntry.depth)|raw }} {$treeEntry.record.title}
+            </xf:option>
+        </xf:foreach>
+    </xf:selectrow>
+
+    <xf:selectrow label="{{ phrase('th_notifier_discussion_open') }}" name="options[content][thread_discussion_open]" value="{$action.options.content.thread_discussion_open}">
+        <xf:option value="-1">{{ phrase('any') }}</xf:option>
+        <xf:option value="1">{{ phrase('open') }}</xf:option>
+        <xf:option value="0">{{ phrase('close') }}</xf:option>
+    </xf:selectrow>
+
+    <xf:selectrow label="{{ phrase('sticky') }}" name="options[content][thread_sticky]" value="{$action.options.content.thread_sticky}">
+        <xf:option value="-1">{{ phrase('any') }}</xf:option>
+        <xf:option value="1">{{ phrase('th_notifier_stuck') }}</xf:option>
+        <xf:option value="0">{{ phrase('th_notifier_not_stuck') }}</xf:option>
+    </xf:selectrow>
+</li>

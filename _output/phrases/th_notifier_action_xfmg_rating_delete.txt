@@ -1,0 +1,1 @@
+{userNameLink} has {deleteType} {ratingUsernameLink}'s rating on {mediaNameLink}

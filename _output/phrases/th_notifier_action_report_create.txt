@@ -1,0 +1,1 @@
+{userNameLink} has created a report for {reportNameLink}.

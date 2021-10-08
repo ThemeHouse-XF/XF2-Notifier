@@ -1,0 +1,1 @@
+{resourceRatingUsernameLink} has left a {resourceRatingNameLink} rating for the resource {resourceNameLink}

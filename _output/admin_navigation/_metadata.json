@@ -1,0 +1,17 @@
+{
+    "th_notifier.json": {
+        "hash": "59d847428ecad6785d6d336a0b17837e"
+    },
+    "th_notifier_action.json": {
+        "hash": "7a857aa15b0237a73d7a1b3790493ad6"
+    },
+    "th_notifier_provider.json": {
+        "hash": "e5849f4a7cc9b0dd77e9845c280c8610"
+    },
+    "th_notifier_providers_service.json": {
+        "hash": "4129ea48646067ef26bdbd369789fc5c"
+    },
+    "th_notifier_send.json": {
+        "hash": "532c2bea1520e077cf60c2aad144482e"
+    }
+}

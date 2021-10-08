@@ -1,0 +1,32 @@
+{
+    "XF-Entity-Post_ThemeHouse-Notifier-XF-Entity-Post.json": {
+        "hash": "4c3ce5f27d0e9d02a9e3d87c6c2e383e"
+    },
+    "XF-Entity-Report_ThemeHouse-Notifier-XF-Entity-Report.json": {
+        "hash": "37ab1f4cca407218ce57292792cb4aa6"
+    },
+    "XF-Entity-Thread_ThemeHouse-Notifier-XF-Entity-Thread.json": {
+        "hash": "784bb35fc093d093c6b68b28db6b77ec"
+    },
+    "XFMG-Entity-Album_ThemeHouse-Notifier-XFMG-Entity-Album.json": {
+        "hash": "66f7e12f43857910b73d5f139755f67d"
+    },
+    "XFMG-Entity-MediaItem_ThemeHouse-Notifier-XFMG-Entity-MediaItem.json": {
+        "hash": "53af4e3e896cb316faf1a965e2d9b0b2"
+    },
+    "XFMG-Entity-Rating_ThemeHouse-Notifier-XFMG-Entity-Rating.json": {
+        "hash": "9cd29feaca77605613a6911faba4dc9a"
+    },
+    "XFRM-Entity-ResourceItem_ThemeHouse-Notifier-XFRM-Entity-ResourceItem.json": {
+        "hash": "d08b4c697e05f0902019203a3c2e4d8d"
+    },
+    "XFRM-Entity-ResourceRating_ThemeHouse-Notifier-XFRM-Entity-ResourceRating.json": {
+        "hash": "2f3a42c00ceb9d508f971eee2db9e7dc"
+    },
+    "XFRM-Entity-ResourceUpdate_ThemeHouse-Notifier-XFRM-Entity-ResourceUpdate.json": {
+        "hash": "b54cb0163f62fb38ca71bf8a7075ca71"
+    },
+    "XFRM-Service-ResourceItem-Feature_ThemeHouse-Notifier-XFRM-Service-ResourceItem-Feature.json": {
+        "hash": "4c61f0cb747872dfc62853bf410e3091"
+    }
+}

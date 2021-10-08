@@ -1,0 +1,1 @@
+{userNameLink} has {deleteType} the media item {mediaNameLink}

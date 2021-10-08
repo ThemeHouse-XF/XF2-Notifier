@@ -1,0 +1,32 @@
+<xf:selectrow label="{{ phrase('th_notifier_team') }}" name="options[mattermost][team]" value="{$action.options.mattermost.team}">
+    <xf:option />
+    <xf:options source="{$teamOptions}" />
+</xf:selectrow>
+
+<xf:selectrow label="{{ phrase('th_notifier_channel') }}" name="options[mattermost][channel]" value="{$action.options.mattermost.channel}">
+    <xf:option />
+    <xf:if is="$currentTeamChannelOptions is not empty">
+        <xf:options source="{$currentTeamChannelOptions}" />
+    </xf:if>
+</xf:selectrow>
+
+
+<xf:js>
+    //<script>
+    var mattermostChannelOptions = {$channelOptionsJson|raw};
+    $('select[name="options[mattermost][team]"]').change(function() {
+        var $select = $('select[name="options[mattermost][channel]"]');
+        var value = $(this).val();
+        var options = mattermostChannelOptions[value];
+        var newOptions = '<option value>&nbsp;</option>';
+
+        for(var i=0;i<options.length;i++) {
+            var item = options[i];
+
+            newOptions = newOptions + '<option value="' + item.value + '">' + item.label + '</option>';
+        }
+
+        $select.html(newOptions);
+    });
+    //</script>
+</xf:js>

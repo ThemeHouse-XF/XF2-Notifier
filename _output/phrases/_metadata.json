@@ -1,0 +1,626 @@
+{
+    "admin_navigation.th_notifier.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8d4a15b825a22bbf822d51f6c1b51f1a"
+    },
+    "admin_navigation.th_notifier_action.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "06df33001c1d7187fdd81ea1f5b277aa"
+    },
+    "admin_navigation.th_notifier_provider.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "ebb4c7315a13fbb6d59f702992052318"
+    },
+    "admin_navigation.th_notifier_providers_service.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8d4a15b825a22bbf822d51f6c1b51f1a"
+    },
+    "admin_navigation.th_notifier_send.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d2a7f14d9cb55bd7809484407c088a17"
+    },
+    "admin_permission.th_notifier_manageActions.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "1b151db1a3661012ef62f812902c5d94"
+    },
+    "admin_permission.th_notifier_manageProv.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "46ff2637e3ec34eb9103aa48a947d79e"
+    },
+    "admin_permission.th_notifier_sendNotif.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "636bfc2c4d41af1caafd777f36a18597"
+    },
+    "th_mattermost_base_url.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "ade86bc4899761ad46c52e381b6228bb"
+    },
+    "th_mattermost_base_url_explain.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d6f3e4324f8ff17069bbba6daba12afd"
+    },
+    "th_mattermost_team_name.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "dfdcb4a58db81e09ebccbdbfbb0a0da6"
+    },
+    "th_mattermost_team_name_explain.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "346829203e6c20475d5203b4dde32454"
+    },
+    "th_notifier_access_token.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "5bc7ab301074148dc708229c5ad54fc6"
+    },
+    "th_notifier_action_options.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "4fc07701a31d1511f07b2ff497126b19"
+    },
+    "th_notifier_action_post_create.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "95e5717251f79f381a31f5611413f409"
+    },
+    "th_notifier_action_post_delete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8a5e4b8e99499e3aa67e81c4268e8d0b"
+    },
+    "th_notifier_action_post_delete_inline.txt": {
+        "global_cache": false,
+        "version_id": 1000331,
+        "version_string": "1.0.3 Beta 1",
+        "hash": "84ad4e64c287d1f0f6f6f5a36a04049f"
+    },
+    "th_notifier_action_post_undelete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "dd390a0f3dbb7741af64ed4b60984c7f"
+    },
+    "th_notifier_action_post_undelete_inline.txt": {
+        "global_cache": false,
+        "version_id": 1000331,
+        "version_string": "1.0.3 Beta 1",
+        "hash": "b16c4f4fae9f532c315f23fc4f6848f2"
+    },
+    "th_notifier_action_report_create.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "561358bee7596358e3db0cfb8c2a856f"
+    },
+    "th_notifier_action_report_reject.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "60ce8237a85761b166d1c876f58f64a4"
+    },
+    "th_notifier_action_report_resolve.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "62918f72a53a415530370a96ceb97961"
+    },
+    "th_notifier_action_thread_close.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "884cb45a18144209026b27cdacc2b082"
+    },
+    "th_notifier_action_thread_close_inline.txt": {
+        "global_cache": false,
+        "version_id": 1000331,
+        "version_string": "1.0.3 Beta 1",
+        "hash": "7f3b61ed1dbeec14a4c65284a401923a"
+    },
+    "th_notifier_action_thread_create.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b7655549ccddd3699faa6492d8b616fd"
+    },
+    "th_notifier_action_thread_delete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "6058db1a40cd93b90ac8b8aec6611ebc"
+    },
+    "th_notifier_action_thread_delete_inline.txt": {
+        "global_cache": false,
+        "version_id": 1000331,
+        "version_string": "1.0.3 Beta 1",
+        "hash": "616865b48030ac29c26f59f6ab7d8e07"
+    },
+    "th_notifier_action_thread_open.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d1fe7f6612929427f690919b827023db"
+    },
+    "th_notifier_action_thread_open_inline.txt": {
+        "global_cache": false,
+        "version_id": 1000331,
+        "version_string": "1.0.3 Beta 1",
+        "hash": "51f18b1833f53c32470e665b610c004c"
+    },
+    "th_notifier_action_thread_stick.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "11a8c058160eff0b40ac8a7d372ad588"
+    },
+    "th_notifier_action_thread_stick_inline.txt": {
+        "global_cache": false,
+        "version_id": 1000331,
+        "version_string": "1.0.3 Beta 1",
+        "hash": "5b16787ce10a5cfa2656c6aae707213a"
+    },
+    "th_notifier_action_thread_undelete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d803ac658474d6db567b9bad71b73ac8"
+    },
+    "th_notifier_action_thread_undelete_inline.txt": {
+        "global_cache": false,
+        "version_id": 1000331,
+        "version_string": "1.0.3 Beta 1",
+        "hash": "77f94b317f35fd492321630e9bf5a80c"
+    },
+    "th_notifier_action_thread_unstick.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "74748239b22e8ada1bbb4bd944a67a47"
+    },
+    "th_notifier_action_thread_unstick_inline.txt": {
+        "global_cache": false,
+        "version_id": 1000331,
+        "version_string": "1.0.3 Beta 1",
+        "hash": "c359727566f784f917778fae08bb5fa1"
+    },
+    "th_notifier_action_xfmg_album_create.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e727d88f67f7e2d515a12630defaf90c"
+    },
+    "th_notifier_action_xfmg_album_delete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c5b1bc1ad2ccc534e067bbfd7852ea74"
+    },
+    "th_notifier_action_xfmg_album_undelete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "cb30978e0e0a603bd09404879428c1cb"
+    },
+    "th_notifier_action_xfmg_media_create.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "41938523ce280a968bd4cc0817cae26f"
+    },
+    "th_notifier_action_xfmg_media_delete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "86fcb868cc7b7f36a137dcd11230f6cd"
+    },
+    "th_notifier_action_xfmg_media_undelete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "da02f5a8eb06a96a7375f78af1fd5fc4"
+    },
+    "th_notifier_action_xfmg_rating_create.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8292be8fc5c8a1525c480396aff3a0eb"
+    },
+    "th_notifier_action_xfmg_rating_delete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "3e3c6015d6744b8161c01082838ff373"
+    },
+    "th_notifier_action_xfmg_rating_reply.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "1fee42ecb893fb45fae149d13df59f5a"
+    },
+    "th_notifier_action_xfmg_rating_undelete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8182edbb9472459569ab585ea8b06bd4"
+    },
+    "th_notifier_action_xfrm_resource_create.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "763d54fdfbddd37672273338b8e00e01"
+    },
+    "th_notifier_action_xfrm_resource_delete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "3fb8daa740786e80c084dfdf4edb174a"
+    },
+    "th_notifier_action_xfrm_resource_feature.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "45405ddb7466d45c0ab12ca909eeb20a"
+    },
+    "th_notifier_action_xfrm_resource_rating_create.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "95addfd3a2d6c47c27cac888c100fa4e"
+    },
+    "th_notifier_action_xfrm_resource_rating_delete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d2c93f9107a64be15748291996918008"
+    },
+    "th_notifier_action_xfrm_resource_rating_reply.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "fe13d36f4e70fbb8e65023b2d19af368"
+    },
+    "th_notifier_action_xfrm_resource_rating_undelete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f86c872eebbb058b7dcb3fa83643ce78"
+    },
+    "th_notifier_action_xfrm_resource_undelete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "683ca4015c6d5ee594189f1bfa9b440f"
+    },
+    "th_notifier_action_xfrm_resource_unfeature.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b04fb0b878f0fc70bc0751811a8a5494"
+    },
+    "th_notifier_action_xfrm_resource_update_create.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c4deb4db8d727ac624bee14feab5d709"
+    },
+    "th_notifier_action_xfrm_resource_update_delete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "00bddcbc5b24095c74ac6da19a3a66ef"
+    },
+    "th_notifier_action_xfrm_resource_update_undelete.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f44bfb7d0d6aeb0a6150905a9202c071"
+    },
+    "th_notifier_actions.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "1774e42a8920062db218375acf1ece68"
+    },
+    "th_notifier_add_action.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8172da4e3579d5e21463da163f1a0afc"
+    },
+    "th_notifier_channel.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "781dc97dc62331eec3ea9ec4373a3ca8"
+    },
+    "th_notifier_choose_content_type.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "7c7efe99ddd1c1ba92546ccaab579743"
+    },
+    "th_notifier_create_report.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "d9c75c79440b3db3ac3e86ae04bc9f19"
+    },
+    "th_notifier_discord_bot_token.txt": {
+        "global_cache": false,
+        "version_id": 1000132,
+        "version_string": "1.0.1 Beta 2",
+        "hash": "925d3dcef3b51731784bf8ce82ff54d4"
+    },
+    "th_notifier_discussion_open.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "e72f3a79602c88da2c3ff619f4e2ad2f"
+    },
+    "th_notifier_edit_action.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "fef1291fabbc8dcd8500510d7a1b1dc0"
+    },
+    "th_notifier_hard_deleted.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "883e5d12af989320bf16f99c61fae6f3"
+    },
+    "th_notifier_invalid_bot_token.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "e12fb7d1e6d3b1fecced6ca8f551216b"
+    },
+    "th_notifier_invalid_content_type_selected.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "7a2cbc4023af4679f87cb1175ebb0bf7"
+    },
+    "th_notifier_mattermost_access_token_explain.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d892fe537b26c0a03ff9e6b04d2deac0"
+    },
+    "th_notifier_media_criteria.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "57eee566bc6e2413ca16f086943578c8"
+    },
+    "th_notifier_must_specify_mattermost_access_token.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "d648a7d84aa26ca3b0304e8204f2a1aa"
+    },
+    "th_notifier_must_specify_slack_api_token.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "2282ea3c308b15a9a92d95c0ff5e4e92"
+    },
+    "th_notifier_no_actions_currently_exist.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "ca04e2313a4811673f575cb243b5a970"
+    },
+    "th_notifier_no_bot_token_specified.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "5c119a64fffe86f06961af39aef84d49"
+    },
+    "th_notifier_no_options_for_provider.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b79ed31332dbcfaf88a2b39e878bfeac"
+    },
+    "th_notifier_no_providers_are_configured_yet.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "11d8e7dacea9c36869e431230457ca40"
+    },
+    "th_notifier_not_stuck.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "fac0214ada7b4afd1d3caf765c311153"
+    },
+    "th_notifier_notification_providers.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "3befa9b5a97595fadc6e66aad8c69acc"
+    },
+    "th_notifier_notifier_providers.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "9f3a0e969167cc812bb45e275bf8cfaf"
+    },
+    "th_notifier_provider_is_active.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "25918020894d541109a8274c9559f5ab"
+    },
+    "th_notifier_provider_title.discord.txt": {
+        "global_cache": false,
+        "version_id": 1000132,
+        "version_string": "1.0.1 Beta 2",
+        "hash": "8f5cc6430613f1c12f36965050bb7197"
+    },
+    "th_notifier_provider_title.mattermost.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "ecb6ff3992a12e3be49b73ca8a11f5c5"
+    },
+    "th_notifier_provider_title.slack.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "3561f3a3c5576e2ce0dc0d1e268bb9b2"
+    },
+    "th_notifier_reject_report.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "7c4c348e5934e215e8c79dcd91bee6cb"
+    },
+    "th_notifier_report_criteria.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "7cb79dc4b6e289529631fcea33168e89"
+    },
+    "th_notifier_report_post.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "efc4b07e2c5fe162e2a46abc82613430"
+    },
+    "th_notifier_resolve_report.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "3fc9852a7e25da0f1ce26dde3730decd"
+    },
+    "th_notifier_resource_criteria.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "8326418b262b03e8c76fcac61c8b5743"
+    },
+    "th_notifier_send_notification.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d2a7f14d9cb55bd7809484407c088a17"
+    },
+    "th_notifier_slack_api_token.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "03960193dfb33fcea07d483c8e512c75"
+    },
+    "th_notifier_slack_bot_username.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "5128e080d9ceb49179a0537853fe37b0"
+    },
+    "th_notifier_soft_deleted.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "0ee2982f146c7da733ecd6f34ed3a899"
+    },
+    "th_notifier_specified_base_url_is_invalid.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "7f401d10ffad5022da3124fb100efd92"
+    },
+    "th_notifier_specified_team_name_is_invalid.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "ee84c87c6921bceb1de86521eb5ab394"
+    },
+    "th_notifier_specified_token_not_mattermost_personal_access_token.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "c22b12516270af3fac0f86e49a23a663"
+    },
+    "th_notifier_specified_token_not_slack_bot_token.txt": {
+        "global_cache": false,
+        "version_id": 1000032,
+        "version_string": "1.0.0 Beta 2",
+        "hash": "2b79c992d91ff3aaf89d449416df2dfc"
+    },
+    "th_notifier_stuck.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "a2c4543906f921f4589e33086abcc102"
+    },
+    "th_notifier_team.txt": {
+        "global_cache": false,
+        "version_id": 1000131,
+        "version_string": "1.0.1 Beta 1",
+        "hash": "ac848fa228f49ba2b8a5fbd76596817d"
+    },
+    "th_notifier_thread_criteria.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b648e84a330769f13165364582128a77"
+    },
+    "th_notifier_undelete_post.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "952a8fe3af906a539bf91db6f3f61463"
+    },
+    "th_notifier_undelete_thread.txt": {
+        "global_cache": false,
+        "version_id": 1000051,
+        "version_string": "1.0.0 Release Candidate 1",
+        "hash": "20b84117ad29a8f9d5bf19573213e617"
+    },
+    "th_notifier_you_must_select_a_valid_slack_channel.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c110f96ad8598a7f8552cb941f94cf27"
+    },
+    "thnotifier_create.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "686e697538050e4664636337cc3b834f"
+    },
+    "thnotifier_leave_a_rating.txt": {
+        "global_cache": false,
+        "version_id": 1000170,
+        "version_string": "1.0.1",
+        "hash": "6ac4c4acab5b96d7a6624b3d501cc7de"
+    }
+}

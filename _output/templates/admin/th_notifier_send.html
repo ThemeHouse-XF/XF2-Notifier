@@ -1,0 +1,29 @@
+<xf:title>{{ phrase('th_notifier_send_notification') }}</xf:title>
+
+<xf:form action="{{ link('th-notifier/send') }}" class="block" ajax="true">
+    <div class="block-container">
+        <div class="tabPanes block-body">
+            <xf:textboxrow label="{{ phrase('message') }}" name="message" />
+            <xf:selectrow label="{{ phrase('provider') }}" name="provider_id" value="slack">
+                <xf:option />
+                <xf:foreach loop="$providers" value="$provider">
+                    <xf:option value="{$provider.provider_id}">{$provider.title}</xf:option>
+                </xf:foreach>
+            </xf:selectrow>
+
+            <xf:foreach loop="$providers" value="$provider">
+                <xf:if contentcheck="true">
+                    <h2 class="block-header block-minorHeader--small">{$provider.title}</h2>
+                    <xf:contentcheck>
+                        {$provider.handler.renderActionOptions($action)|raw}
+                    </xf:contentcheck>
+                    <xf:else />
+                    {{ phrase('th_notifier_no_options_for_provider') }}
+                </xf:if>
+            </xf:foreach>
+        </div>
+
+
+        <xf:submitrow icon="send" sticky="true" />
+    </div>
+</xf:form>

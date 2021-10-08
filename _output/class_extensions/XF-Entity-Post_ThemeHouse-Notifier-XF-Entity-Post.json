@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Entity\\Post",
+    "to_class": "ThemeHouse\\Notifier\\XF\\Entity\\Post",
+    "execute_order": 2147483646,
+    "active": true
+}

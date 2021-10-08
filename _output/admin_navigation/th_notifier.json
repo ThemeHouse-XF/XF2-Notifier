@@ -1,0 +1,10 @@
+{
+    "parent_navigation_id": "communication",
+    "display_order": 10000,
+    "link": "",
+    "icon": "fa-bell",
+    "admin_permission_id": "",
+    "debug_only": false,
+    "development_only": false,
+    "hide_no_children": true
+}
